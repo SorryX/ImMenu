@@ -170,6 +170,7 @@
     <ClInclude Include="ImGui\imgui_internal.h" />
     <ClInclude Include="src\custom.h" />
     <ClInclude Include="src\fonts\josefin_sans.h" />
+    <ClInclude Include="src\globals.h" />
     <ClInclude Include="src\menu.h" />
   </ItemGroup>
   <ItemGroup>
