@@ -10,6 +10,9 @@
 #include "fonts/fonts.h"
 #include "fonts/josefin_sans.h"
 
+// globals
+#include "globals.h"
+
 class Menu
 {
 public:
@@ -24,7 +27,7 @@ public:
 
     void InitFonts() noexcept
     {
-        fonts.AddFontFromMemoryCompressedTTF("standard", Josefin_sans_compressed_data, Josefin_sans_compressed_size, 14.f);
+        Globals::fonts.AddFontFromMemoryCompressedTTF("standard", Josefin_sans_compressed_data, Josefin_sans_compressed_size, 14.f);
     }
 
     void InitStyle() noexcept
@@ -42,7 +45,6 @@ private:
     ImVec2 startup_size = ImVec2(500, 500);
 
     // use these when needed e.g adding fonts or adding images!
-    Fonts fonts;
     ID3D11Device* pDevice;
 };
 

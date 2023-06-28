@@ -1,6 +1,6 @@
 #include "custom.h"
 
-void ImGui::CustomCheckbox(const char* name, bool* v)
+bool ImGui::CustomCheckbox(const char* name, bool* v)
 {
 
 }
