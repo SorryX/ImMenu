@@ -15,6 +15,6 @@ which later can be used to get that font, remember you can always just use the d
 
 using `fonts` instance you can access all fonts by string
 ```cpp
-fonts.GetFontByString("small_font"); 
+Globals::fonts.GetFontByString("small_font"); 
 ```
 and you can use this to render different fonts on different element!
